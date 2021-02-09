@@ -59,7 +59,6 @@ export const Options = (props) => (
                 </Tab>
                 <Tab eventKey="notes" title="NOTES" >
                  <p>Not yet implemented</p>
-                 <p>Not yet implemented</p>
                 </Tab>
                 <Tab eventKey="links" title="LINKS" >
                 <p>Not yet implemented</p>
