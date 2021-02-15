@@ -1,0 +1,23 @@
+
+
+type Query {
+  options(query: String): [Option!]!
+}
+
+type Mutation {
+    createOption(name: String!, type:String!, fabric:String!):Option!
+    updateOption(id: ID!, name: String!, type:String!, fabric:String!):Option!
+}
+
+
+type Option {
+    id: ID!
+    name: String!
+    type: String!
+    fabric: String!
+}
+
+enum MutationType {
+    CREATED
+    UPDATED
+}
