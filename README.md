@@ -18,7 +18,7 @@ Client Side
 Go to folder /frontend
 
   1. yarn
-  2. yarn install @apollo/client graphql
+  2. yarn add @apollo/client graphql
   3. yarn start
   
   Link: http://localhost:3000/options
