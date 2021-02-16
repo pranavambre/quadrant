@@ -19,6 +19,7 @@ Go to folder /frontend
 
   1. yarn
   2. yarn add @apollo/client graphql
-  3. yarn start
+  3. npm install apollo-link-ws
+  4. yarn start
   
   Link: http://localhost:3000/options
